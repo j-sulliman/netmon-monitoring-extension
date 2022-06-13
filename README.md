@@ -6,8 +6,13 @@
 
 # Instructions
 
-Edit the hosts in netmon.py to suit:
+Install extension to <machine-agent>/monitors/netmon directory as below
 
+`
+~/machine-agent/monitors/netmon$ ls
+monitor.xml  netmon.py
+` 
+Edit the hosts in netmon.py to suit:   
 `
 hosts = {
     "dns": ["8.8.8.8", "208.67.222.222", "208.67.220.220"],
