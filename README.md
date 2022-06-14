@@ -12,6 +12,7 @@ Install extension to <machine-agent>/monitors/netmon directory as below
 ~/machine-agent/monitors/netmon$ ls
 monitor.xml  netmon.py
 ` 
+    
 Edit the hosts in netmon.py to suit:   
 `
 hosts = {
